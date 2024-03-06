@@ -2,8 +2,13 @@ body, h1, h2, h3, h4, p {
     margin: 0px;
 }
 
+.container-logIn{
+    background-image: url('D:/1403A/PAI-PROIECT/PAI-Proiect/images/logIn_background.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 0 400px;
+}
 .nav {
-    padding: 1em 0.5em;;
+    padding: 1em 0.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +21,6 @@ body, h1, h2, h3, h4, p {
 nav ul {
     display:inline-flex;
     list-style-type: none;
-    
 }
 
 .nav__item {
@@ -62,44 +66,46 @@ nav ul {
     background-color: transparent;
 }
 
-.about {
-    display: flex;
-    padding: 20px;
-    align-items: center;
+h2 {
+    margin: 20px 0;
+    text-align: center;
 }
 
-.about__left {
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-}
- 
-.about__left__motto {
-    font-size: 4rem;
-    font-weight: 700;
+form {
+    max-width: 500px;
+    margin: 50px 150px 0;
+    padding: 50px 50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
 }
 
-.about__left__text {
-    font-size: 0.7rem;
-    color: grey;
-}
+a {
+    text-decoration:none;
+   }
+   input[type="text"],
+   input[type="email"],
+   input[type="password"]{
+       width: 100%;
+       padding: 8px;
+       border-radius: 3px;
+       border: 1px solid #ccc;
+       box-sizing: border-box;
+   }
 
-.about__btn {
+.logIn-btn {
     background: rgb(81,173,207);
-    background: linear-gradient(0deg, rgba(81,173,207,1) 0%, rgba(62,105,194,1) 100%);
+    background: linear-gradient(0deg,rgba(62,105,194,1) 0%,rgba(81,173,207,1)  100%);
     border: none;
     border-radius: 20px;
-    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     height: fit-content;
     width: fit-content;
     padding: 12px 15px;
     color: #000;
-    font-size: 1rem;
+    font-size: 0.8rem;
     opacity: 0.8;
     transition: 0.3s ease-in-out;
-    margin-right: 2em;
-}
-
-.about__btn:hover {
-    opacity: 1;
+    margin-right: 1.5em;
+    margin-top: 10px;
 }

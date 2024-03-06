@@ -1,0 +1,105 @@
+body, h1, h2, h3, h4, p {
+    margin: 0px;
+}
+
+.nav {
+    padding: 1em 0.5em;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display:inline-flex;
+    list-style-type: none;
+    
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__item a{
+    background-color: transparent;
+}
+.nav__item a:hover {
+    color: #51ADCF;
+}
+
+.nav__link {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-bar__signin__btn {
+    margin-left: 40px;
+    background: rgb(81,173,207);
+    background: linear-gradient(0deg, rgba(81,173,207,1) 0%, rgba(62,105,194,1) 100%);
+    border: none;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 12px 15px;
+    color: #000;
+    font-size: 1rem;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-bar__signin__btn:hover {
+    opacity: 1;
+}
+
+.nav-bar__toggler {
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.about {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.about__left {
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+}
+ 
+.about__left__motto {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about__left__text {
+    font-size: 0.7rem;
+    color: ;
+}
+
+.about__btn {
+    background: rgb(81,173,207);
+    background: linear-gradient(0deg, rgba(81,173,207,1) 0%, rgba(62,105,194,1) 100%);
+    border: none;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 12px 15px;
+    color: #000;
+    font-size: 1rem;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+    margin-right: 2em;
+}
+
+.about__btn:hover {
+    opacity: 1;
+}

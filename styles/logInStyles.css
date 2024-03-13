@@ -2,11 +2,12 @@ body, h1, h2, h3, h4, p {
     margin: 0px;
 }
 
-.container-logIn{
-    background-image: url('D:/1403A/PAI-PROIECT/PAI-Proiect/images/logIn_background.jpg');
-    background-repeat: no-repeat;
-    padding: 50px 0 400px;
-}
+div ul {
+    display:inline-flex;
+    list-style-type: none;
+    align-items: center;
+}   
+
 .nav {
     padding: 1em 0.5em;
     display: flex;
@@ -17,10 +18,6 @@ body, h1, h2, h3, h4, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav ul {
-    display:inline-flex;
-    list-style-type: none;
 }
 
 .nav__item {
@@ -38,6 +35,7 @@ nav ul {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
+    cursor: grab;
 }
 
 .nav-bar__signin__btn {
@@ -54,6 +52,7 @@ nav ul {
     font-size: 1rem;
     opacity: 0.8;
     transition: 0.3s ease-in-out;
+    cursor:grab;
 }
 
 .nav-bar__signin__btn:hover {
@@ -64,7 +63,10 @@ nav ul {
     margin-left: 30px;
     border: none;
     background-color: transparent;
+    cursor:grab;
 }
+
+/* form elements */
 
 h2 {
     margin: 20px 0;
@@ -88,10 +90,17 @@ a {
    input[type="password"]{
        width: 100%;
        padding: 8px;
+       margin: 7px 0;
        border-radius: 3px;
        border: 1px solid #ccc;
        box-sizing: border-box;
    }
+
+.container-logIn{
+    background-image: url('/home/dianarotaru/PAI-PROJECT/PAI-Proiect/images/logIn_background.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 0 230px;
+}
 
 .logIn-btn {
     background: rgb(81,173,207);
@@ -103,9 +112,45 @@ a {
     width: fit-content;
     padding: 12px 15px;
     color: #000;
-    font-size: 0.8rem;
+    font-size: 1rem;
     opacity: 0.8;
     transition: 0.3s ease-in-out;
     margin-right: 1.5em;
-    margin-top: 10px;
+    margin-top: 20px;
+    cursor: grab;
+
+}
+
+.forgotpassword{
+    color: rgba(62,105,194);
+    cursor: grab;
+}
+
+/* footer elements */
+.footer_socials a{
+    padding-right: 10px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer ul li{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: grab;
+}
+
+.vertical {
+    margin-left: 30px;
+    border-left: 1px solid black;
+    height: 50px;
+}
+
+.footer_credits{
+    text-align: center;
+    padding: 30px 0;
 }

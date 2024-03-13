@@ -14,12 +14,12 @@
         <a class="nav__logo" href="#"><img src="images/black_transparent.png" alt="Logo" width="300" height="35"></a>
         <div class="nav__content">
             <ul class="nav__links">
-                <li class="nav__item"><a class="nav__link">Home</a></li>
-                <li class="nav__item"><a class="nav__link">Memberships</a></li>
-                <li class="nav__item"><a class="nav__link">Healthy Eating</a></li>
-                <li class="nav__item"><a class="nav__link">Workouts</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="memberships.html">Memberships</a></li>
+                <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
+                <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
             </ul>
-            <button class="nav-bar__signin__btn">Sign in/Log in</button>
+            <button class="nav-bar__signin__btn"><a class="nav__link" href="logIn.html"></a>Sign up/Log in</button>
             <button class="nav-bar__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
                     height="35px"></img></button>
         </div>
@@ -34,7 +34,7 @@
             <div>
                 <label for="password">Password: </label>
                 <input type="password" minlength="3">
-                <a class="oralign" style="font:12px" routerLink="/forgotpassword">Forgot password?</a>
+                <a class="forgotpassword" style="font:12px" routerLink="/forgotpassword">Forgot password?</a>
             </div>
             <button class="logIn-btn" type="submit">Log in</button>
             <button class="logIn-btn" type="submit">Press here to sign up!</button>
@@ -42,15 +42,29 @@
 
     </div>
     <footer class="footer">
-        <div class="footer_socials">
-    
-        </div>
-    
-        <div class="footer_nav">
-    
+        <div class="footer-menu">
+            <div class="footer_socials">
+                <a class="footer__facebook" href="#"><img src="images/facebook.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__instagram" href="#"><img src="images/instagram.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__tiktok" href="#"><img src="images/tiktok.png" alt="Logo" width="35" height="35"></a>
+            </div>
+
+            <div class="footer_nav">
+                <ul class="footer__links">
+                    <li class="nav__item"><a class="footer__link">Home</a></li>
+                    <div class= "vertical"></div>
+                    <li class="nav__item"><a class="footer__link">Memberships</a></li>
+                    <div class= "vertical"></div>
+                    <li class="nav__item"><a class="footer__link">Healthy Eating</a></li>
+                    <div class= "vertical"></div>
+                    <li class="nav__item"><a class="footer__link">Workouts</a></li>
+                </ul>
+            </div>
         </div>
         <div class="footer_credits">
-    
+            <p>©The Health Makeover Crew</p>
         </div>
     </footer>
 </body>

@@ -202,6 +202,7 @@ nav ul {
     border-top: lightgray;
     display: flex;
     width: 95%;
+    height: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding-left: 5%;
@@ -216,4 +217,76 @@ nav ul {
 .latest-articles__post_description {
     padding: 1em 0;
     color: #4b4a43;
+}
+
+.memberships {
+    padding: 1em 3em;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.memberships__offer {
+    width: 25%;
+}
+
+.memberships__offer__top {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.memberships__offer__top.premium {
+    background-color: rgb(223, 36, 104);
+}
+
+.memberships__offer__top.standard {
+    background-color: rgb(164, 0, 164);
+}
+
+.memberships__offer__top.basic {
+    background-color:rgb(9, 80, 148);
+}
+
+.memberships__offer__middle {
+    border-left: 177px solid transparent;
+	border-right:177px solid transparent;
+}
+
+.memberships__offer__middle.premium {
+    background-color: rgba(223, 36, 105, 0.467);
+    border-top: 40px solid rgb(223, 36, 104);
+}
+
+.memberships__offer__middle.standard {
+    background-color: rgba(128, 0, 128, 0.505);
+    border-top: 40px solid rgb(164, 0, 164);
+}
+
+.memberships__offer__middle.basic {
+    background-color: rgba(9, 81, 148, 0.511);
+    border-top: 40px solid rgb(9, 80, 148);
+}
+
+.memberships__offer__bottom {
+    border-left: 177px solid transparent;
+	border-right:177px solid transparent;
+}
+
+.memberships__offer__bottom.premium {
+    border-top: 40px solid rgba(223, 36, 105, 0.467);
+}
+
+.memberships__offer__bottom.standard {
+    border-top: 40px solid rgba(128, 0, 128, 0.505);
+}
+
+.memberships__offer__bottom.basic {
+    border-top: 40px solid rgba(9, 81, 148, 0.511);
+}
+
+.memberships__offer__price {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 0 0;
 }

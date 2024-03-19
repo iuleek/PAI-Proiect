@@ -1,12 +1,16 @@
-body, h1, h2, h3, h4, p {
-    margin: 0px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-div ul {
-    display:inline-flex;
-    list-style-type: none;
-    align-items: center;
-}   
+body{
+    margin: 0;
+}
+
+html {
+    font-size:15px;
+  }
 
 /* navbar */
 .nav {
@@ -44,6 +48,7 @@ nav ul {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .nav__signin__btn__container {
@@ -102,68 +107,97 @@ nav ul {
     background-color: transparent;
 }
 
+/* page */
+.main {
+  background-color: #B7C9F2;
+  font-family:monospace;
+}
 
-/* form elements & page */
-
-h2 {
-    margin: 20px 0;
+.h2-main{
     text-align: center;
+    margin-top: 0;
+    padding-top: 5px;
 }
 
-form {
-    max-width: 500px;
-    margin: 50px 150px 0;
-    padding: 50px 50px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 2px 2px 5px gray;
+.cards {
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-    text-decoration:none;
-   }
-   input[type="text"],
-   input[type="email"],
-   input[type="password"]{
-       width: 100%;
-       padding: 8px;
-       margin: 7px 0;
-       border-radius: 3px;
-       border: 1px solid #ccc;
-       box-sizing: border-box;
-   }
-
-.container-logIn{
-    background-image: url('C:\Iulik\Personal\Anul 4\Sem2\PAI-Proiect\images\logIn_background.jpg');
-    background-repeat: no-repeat;
-    padding: 50px 0 230px;
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
 }
 
-.logIn-btn {
-    background: rgb(81,173,207);
-    background: linear-gradient(0deg,rgba(62,105,194,1) 0%,rgba(81,173,207,1)  100%);
-    border: none;
-    border-radius: 20px;
-    border-top-left-radius: 0;
-    height: fit-content;
-    width: fit-content;
-    padding: 12px 15px;
-    color: #000;
-    font-size: 1rem;
-    opacity: 0.8;
-    transition: 0.3s ease-in-out;
-    margin-right: 1.5em;
-    margin-top: 20px;
-    cursor: grab;
-
+.card_image {
+  height: calc(13*1.2rem);
+  padding: 1.2rem 1.2rem 0;
+  position:relative;
+}
+.card_image:before,
+.card_image:after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  left: 60%;
+  top: 0;
+  height: 45px;
+  background: #e6e6e6b8;
+  transform: rotate(45deg);
+}
+.card_image:after{
+  transform: rotate(-45deg);
+  top:auto;
+  bottom:-22px;
+  left:40%;
+}
+.card_image img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 
-.forgotpassword{
-    color: rgba(62,105,194);
-    cursor: grab;
+.cards_item {
+  filter:drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+}
+
+
+.card {
+  background-color: white;
+  width: 80%;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 30px;
+  background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+  background-repeat: no-repeat;
+  line-height: 1.2rem;
+  -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+}
+
+.card_content {
+  padding: 1.2rem;
+}
+
+h2.card_title,p {
+  margin: 1.2rem 0;
+}
+h2.card_title {
+    font-size: 1.3em;
 }
 
 /* footer elements */
+.footer__links {
+    display:inline-flex;
+    list-style-type: none;
+    align-items: center;
+}   
+
 .footer_socials a{
     padding-right: 10px;
 }

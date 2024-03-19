@@ -139,23 +139,106 @@ a {
     padding: 50px 0 230px;
 }
 
-.logIn-btn {
-    background: rgb(81,173,207);
-    background: linear-gradient(0deg,rgba(62,105,194,1) 0%,rgba(81,173,207,1)  100%);
-    border: none;
-    border-radius: 20px;
-    border-top-left-radius: 0;
-    height: fit-content;
-    width: fit-content;
-    padding: 12px 15px;
-    color: #000;
-    font-size: 1rem;
-    opacity: 0.8;
-    transition: 0.3s ease-in-out;
-    margin-right: 1.5em;
-    margin-top: 20px;
-    cursor: grab;
 
+.logIn-btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.logIn-btn {
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+    cursor: pointer;
+}
+
+.logIn-btn::before {
+    content: "";
+    position: absolute;
+    left: 1.5px;
+    right: 1.5px;
+    top: 1.5px;
+    bottom: 1.5px;
+    border-radius: 4px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms
+}
+
+.logIn-btn::after {
+    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+    color: transparent;
+    transition: 200ms
+}
+
+.logIn-btn:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.logIn-btn:hover::after {
+    color: white;
+}
+
+.signUp-btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+    margin-left: 40px;
+}
+
+.signUp-btn  {
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+    cursor: pointer;
+}
+
+.signUp-btn::before {
+    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+    color: transparent;
+    transition: 200ms;
+}
+
+.signUp-btn::after {
+    content: "";
+    position: absolute;
+    left: 1.5px;
+    right: 1.5px;
+    top: 1.5px;
+    bottom: 1.5px;
+    border-radius: 4px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms;
+}
+
+
+.signUp-btn:hover::before {
+    color: white;
+}
+
+.signUp-btn:hover:after {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 .forgotpassword{

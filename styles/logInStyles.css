@@ -134,7 +134,7 @@ a {
    }
 
 .container-logIn{
-    background-image: url('C:\Iulik\Personal\Anul 4\Sem2\PAI-Proiect\images\logIn_background.jpg');
+    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
     background-repeat: no-repeat;
     padding: 50px 0 230px;
 }
@@ -178,7 +178,7 @@ a {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .vertical {

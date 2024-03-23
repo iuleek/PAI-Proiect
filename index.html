@@ -28,8 +28,8 @@
                     <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
                     <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
                 </ul>
-                <div class="nav__signin__btn__container">
-                    <button class="nav__signin__btn">Sign in/Log in</button>
+                <div class="nav__signin__btn btn__outlined__wrapper">
+                    <button class="nav__signin__btn btn__outlined">Sign in/Log in</button>
                 </div>
                 <button class="nav__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
                         height="35px"></img></button>
@@ -69,12 +69,15 @@
             <section class="latest-articles">
                 <div class="latest-articles__post">
                     <div class="latest-articles__post__top">
-                        <img src="images/diet.png" alt="Article Image" width="" height="">
+                        <img class="latest-articles__post__img" src="images/diet.jpg" alt="Article Image" width=""
+                            height="">
                     </div>
                     <div class="latest-articles__post__bottom">
                         <div class="latest-articles__post__text">
                             <h4 class="latest-articles__post_title">Benefits of eating healthy</h3>
-                                <p class="latest-articles__post_description">This post continues if you press</p>
+                                <p class="latest-articles__post_description">A healthy diet is essential for good health
+                                    and nutrition. It protects you against many chronic noncommunicable diseases, such
+                                    as heart disease, diabetes and cancer...</p>
                         </div>
                         <button class="latest-articles__post__btn"><img src="images/arrow-right.svg" alt="" width="30px"
                                 height="30px"></button>
@@ -82,12 +85,15 @@
                 </div>
                 <div class="latest-articles__post">
                     <div class="latest-articles__post__top">
-                        <img src="images/exercise.png" alt="Article Image" width="" height="">
+                        <img class="latest-articles__post__img" src="images/exercise.jpg" alt="Article Image" width=""
+                            height="">
                     </div>
                     <div class="latest-articles__post__bottom">
                         <div class="latest-articles__post__text">
                             <h4 class="latest-articles__post_title">Why is exercise wise</h3>
-                                <p class="latest-articles__post_description">This post continues if you press</p>
+                                <p class="latest-articles__post_description">Exercise helps people keep a healthy weight
+                                    and lower their risk of some diseases. Exercising regularly can help prevent weight
+                                    gain, type 2 diabetes, heart disease, and high blood pressure..</p>
                         </div>
                         <button class="latest-articles__post__btn"><img src="images/arrow-right.svg" alt="" width="30px"
                                 height="30px"></button>
@@ -96,12 +102,15 @@
                 </div>
                 <div class="latest-articles__post">
                     <div class="latest-articles__post__top">
-                        <img src="images/yoga.png" alt="Article Image" width="" height="">
+                        <img class="latest-articles__post__img" src="images/yoga.jpg" alt="Article Image" width=""
+                            height="">
                     </div>
                     <div class="latest-articles__post__bottom">
                         <div class="latest-articles__post__text">
                             <h4 class="latest-articles__post_title">10 benefits of yoga</h4>
-                            <p class="latest-articles__post_description">This post continues if you press</p>
+                            <p class="latest-articles__post_description">Yoga improves strength, balance and
+                                flexibility. Slow movements and deep breathing increase blood flow and warm up muscles,
+                                while holding a pose can build ...</p>
                         </div>
                         <button class="latest-articles__post__btn"><img src="images/arrow-right.svg" alt="" width="30px"
                                 height="30px"></button>
@@ -112,65 +121,114 @@
             <section class="memberships">
                 <div class="memberships__offer">
                     <div class="memberships__offer__top premium">
-                        <h3 class="memberships__offer__title">Premium</h3>
+                        <h3 class="memberships__offer__title">PREMIUM</h3>
                     </div>
                     <div class="memberships__offer__middle premium">
-                        <p class="memberships__offer__price">180$</p>
+                        <p class="memberships__offer__price price__premium">180$</p>
                     </div>
                     <div class="memberships__offer__bottom premium">
                     </div>
-                    <p class="memberships__offer__content">VIP offer unlimited access to our workout routines and
-                        nutrition plans.</p>
+                    <div class="memberships__offer__content">
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Nutrition plan</p>
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Access to exclusive
+                            workout videos</p>
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Weekly progress
+                            tracking and analysis</p>
+                    </div>
+                    <div class="memberships__offer__btn">
+                        <button class="memberships__btn btn__premium">Buy now</button>
+                    </div>
                 </div>
                 <div class="memberships__offer">
                     <div class="memberships__offer__top standard">
-                        <h3 class="memberships__offer__title">Standard</h3>
+                        <h3 class="memberships__offer__title">STANDARD</h3>
                     </div>
                     <div class="memberships__offer__middle standard">
-                        <p class="memberships__offer__price">130$</p>
+                        <p class="memberships__offer__price price__standard">130$</p>
                     </div>
                     <div class="memberships__offer__bottom standard">
                     </div>
-                    <p class="memberships__offer__content">Fitness Plan</p>
+                    <div class="memberships__offer__content">
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Access to exclusive
+                            workout videos</p>
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Monthly check-ups on
+                            progress and advices</p>
+                        <p><img class="memberships__offer__content__icon" src="images/delete.png">Nutrition plan</p>
+                    </div>
+                    <div class="memberships__offer__btn">
+                        <button class="memberships__btn btn__standard">Buy now</button>
+                    </div>
                 </div>
                 <div class="memberships__offer">
                     <div class="memberships__offer__top basic">
-                        <h3 class="memberships__offer__title">Basic</h3>
+                        <h3 class="memberships__offer__title">BASIC</h3>
                     </div>
                     <div class="memberships__offer__middle basic">
-                        <p class="memberships__offer__price">70$</p>
+                        <p class="memberships__offer__price price__basic">70$</p>
                     </div>
                     <div class="memberships__offer__bottom basic">
                     </div>
-                    <p class="memberships__offer__content">Nutrition Plan</p>
+                    <div class="memberships__offer__content">
+                        <p><img class="memberships__offer__content__icon" src="images/check.png">Limited access to
+                            select fitness programs</p>
+                        <p><img class="memberships__offer__content__icon" src="images/delete.png">Weekly progress
+                            tracking and analysis</p>
+                        <p><img class="memberships__offer__content__icon" src="images/delete.png">Nutrition plan</p>
+                    </div>
+                    <div class="memberships__offer__btn">
+                        <button class="memberships__btn btn__basic">Buy now</button>
+                    </div>
                 </div>
             </section>
 
             <section class="subscribe">
-                <h3 class="subscribe__title">Join the squad!</h3>
-                <form class="subscribe__form">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname">
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email">
-                    <button class="subscribe__form__btn" type="submit">Get notified</button>
-                </form>
-                <p>Reach your best self through a body and soul makeover!</p>
+                
+                <div class="subscribe__left">
+                    <img class="subscribe__left__img" src="images/subscribe.jpg" alt="Checkout image" >
+                </div>
+                <div class="subscribe__right">
+                    <h2 class="subscribe__title">Join our squad!</h2>
+                    <h3 class="subscribe__message">Reach your best self through a body and soul makeover!</h3>
+                    <form class="subscribe__form">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <div class="btn__outlined__wrapper">
+                            <button class="subscribe__form__btn btn__outlined" type="submit">Get notified</button>
+                        </div>    
+                    </form>
+                    
+                </div>
             </section>
         </div>
 
         <footer class="footer">
-            <div class="footer_socials">
-
-            </div>
-
-            <div class="footer_nav">
-
+            <div class="footer-menu">
+                <div class="footer_socials">
+                    <a class="footer__facebook" href="#"><img src="images/facebook.png" alt="Logo" width="35"
+                            height="35"></a>
+                    <a class="footer__instagram" href="#"><img src="images/instagram.png" alt="Logo" width="35"
+                            height="35"></a>
+                    <a class="footer__tiktok" href="#"><img src="images/tiktok.png" alt="Logo" width="35" height="35"></a>
+                </div>
+    
+                <div class="footer_nav">
+                    <ul class="footer__links">
+                        <li class="nav__item"><a class="footer__link">Home</a></li>
+                        <div class= "vertical"></div>
+                        <li class="nav__item"><a class="footer__link">Memberships</a></li>
+                        <div class= "vertical"></div>
+                        <li class="nav__item"><a class="footer__link">Healthy Eating</a></li>
+                        <div class= "vertical"></div>
+                        <li class="nav__item"><a class="footer__link">Workouts</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer_credits">
-
+                <p>©The Health Makeover Crew</p>
             </div>
         </footer>
     </div>

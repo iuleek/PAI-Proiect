@@ -5,42 +5,76 @@
     <meta charset="utf-8">
     <title>The Health Makeover Log In</title>
     <!--CSS Stylesheets-->
-    <link rel="stylesheet" href="styles/logInStyles.css">
+    <link rel="stylesheet" href="styles/signUpStyles.css">
 
 </head>
 
 <body>
     <nav class="nav">
-        <a class="nav__logo" href="#"><img src="images/black_transparent.png" alt="Logo" width="300" height="35"></a>
+        <a class="nav__logo" href="index.html"><img src="images/black_transparent.png" alt="Logo" width="300"
+                height="35"></a>
         <div class="nav__content">
             <ul class="nav__links">
-                <li class="nav__item"><a class="nav__link">Home</a></li>
-                <li class="nav__item"><a class="nav__link">Memberships</a></li>
-                <li class="nav__item"><a class="nav__link">Healthy Eating</a></li>
-                <li class="nav__item"><a class="nav__link">Workouts</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html #memberships">Memberships</a></li>
+                <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
+                <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
             </ul>
-            <button class="nav-bar__signin__btn">Sign in/Log in</button>
-            <button class="nav-bar__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
+            <div class="nav__signin__btn btn__outlined__wrapper">
+                <button class="nav__signin__btn btn__outlined" onclick="location.href='logIn.html'">Sign up/Log
+                    in</button>
+            </div>
+            <button class="nav__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
                     height="35px"></img></button>
         </div>
     </nav>
-    <h2>Log in to stay updated!</h2>
-    <form>
-        <div>
-            <label for="name">Name: </label>
-            <input type="text">
+    <div class="signUp">
+        <div class="signUp__container">
+            <h2 class="signUp__title">Sign up!</h2>
+            <h3 class="signUp__message">Join our squad and keep the community growing!</h3>
+            <form class="signUp__form">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="email">
+                <label for="password">Password: </label>
+                <input type="password" minlength="3" id="password">
+                <div class="btn__outlined__wrapper signUp__btn__wrapper">
+                    <button class="btn__outlined signUp__btn" type="submit">Sign Up!</button>
+                </div>
+            </form>
         </div>
-        <div>
-            <label for="email">Email: </label>
-            <input type="email">
+    </div>
+    <footer class="footer">
+        <div class="footer-menu">
+            <div class="footer_socials">
+                <a class="footer__facebook" href="#"><img src="images/facebook.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__instagram" href="#"><img src="images/instagram.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__tiktok" href="#"><img src="images/tiktok.png" alt="Logo" width="35" height="35"></a>
+            </div>
+
+            <div class="footer_nav">
+                <ul class="footer__links">
+                    <li class="nav__item"><a class="footer__link" href="index.html">Home</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="#memberships">Memberships</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="food-articles.html">Healthy Eating</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="fitness-articles.html">Workouts</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <label for="password">Password: </label>
-            <input type="password" minlength="3">
-            <a class="oralign" style="font:12px" routerLink="/forgotpassword">Forgot password?</a>
+        <div class="footer_credits">
+            <p>©The Health Makeover Crew</p>
         </div>
-        <button type="submit">Log in</button>
-    </form>
+    </footer>
 </body>
 
 </html>

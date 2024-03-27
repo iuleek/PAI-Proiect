@@ -1,0 +1,199 @@
+body, h1, h2, h3, h4, p {
+    margin: 0px;
+}
+
+/***************************** NAV BAR *****************************/
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+.nav__toggler {
+    cursor: pointer;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__item a:hover {
+    color: #51ADCF;
+}
+
+.nav__link {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btn__outlined__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.btn__outlined {
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+    cursor: pointer;
+}
+
+.btn__outlined::before {
+    content: "";
+    position: absolute;
+    left: 1.5px;
+    right: 1.5px;
+    top: 1.5px;
+    bottom: 1.5px;
+    border-radius: 4px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms
+}
+
+.btn__outlined::after {
+    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+    color: transparent;
+    transition: 200ms
+}
+
+.btn__outlined:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.btn__outlined:hover::after {
+    color: white;
+}
+
+.nav__toggler {
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+/************************************* SIGN UP ************************************/
+.signUp {
+    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 100px;
+}
+
+.signUp__container {
+    max-width: 500px;
+    margin: 50px 150px 0;
+    padding: 50px 50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+a {
+    text-decoration:none;
+   }
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   input[type="tel"]{
+       width: 100%;
+       padding: 8px;
+       margin: 7px 0;
+       border-radius: 3px;
+       border: 1px solid #ccc;
+       box-sizing: border-box;
+   }
+
+
+.signUp__title {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.signUp__message {
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #025cab;
+}
+
+.signUp__btn__wrapper {
+    margin: 0;
+    background-color: transparent;
+    margin-top: 1.5rem;
+    color: #025cab;
+}
+
+.signUp__btn {
+    width: 70%;
+    font-size: 1.2em;
+}
+/************************************* FOOTER ************************************/
+.footer_socials a{
+    padding-right: 10px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__links {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer ul li{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: grab;
+}
+
+.vertical {
+    margin-left: 30px;
+    border-left: 1px solid black;
+    height: 50px;
+}
+
+.footer_credits{
+    text-align: center;
+    padding: 30px 0;
+}

@@ -108,9 +108,11 @@ nav ul {
 h2 {
     margin: 20px 0;
     text-align: center;
+    color: #025cab;
+    font-size: 2em;
 }
 
-form {
+.logIn__section {
     max-width: 500px;
     margin: 50px 150px 0;
     padding: 50px 50px;
@@ -139,13 +141,15 @@ a {
     padding: 50px 0 230px;
 }
 
+.logIn_btns {
+    margin-top: 20px;
+}
 
 .logIn-btn__container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-left: 40px;
 }
 
 .logIn-btn {
@@ -157,6 +161,8 @@ a {
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
     cursor: pointer;
+    width: 70%;
+    margin-bottom: 20px;
 }
 
 .logIn-btn::before {
@@ -190,27 +196,33 @@ a {
     color: white;
 }
 
+.signUp__message {
+    color: rgba(62, 105, 194, 1);
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .signUp-btn__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
-    margin-left: 40px;
+    background-color: white;
 }
 
 .signUp-btn  {
     padding: 12px 15px;
     border: none;
     position: relative;
-    z-index: 1;
-    font-size: 1rem;
+   /* z-index: 1;*/
+    font-size: 1.2rem;
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
     cursor: pointer;
 }
 
 .signUp-btn::before {
-    background: linear-gradient(to left, #00FFA3, #DC1FFF);
     color: transparent;
     transition: 200ms;
 }
@@ -239,6 +251,7 @@ a {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 
 .forgotpassword{

@@ -17,6 +17,10 @@ p {
     padding: 1em 3em;
 }
 
+.nav__toggler {
+    cursor: pointer;
+}
+
 .nav__content {
     display: flex;
     justify-content: space-between;
@@ -33,7 +37,7 @@ p {
     margin-left: 40px;
 }
 
-.nav__item a {
+.nav__link {
     text-decoration: none;
 }
 
@@ -80,7 +84,6 @@ p {
 }
 
 .btn__outlined::after {
-    background: linear-gradient(to left, #00FFA3, #DC1FFF);
     color: transparent;
     transition: 200ms
 }
@@ -236,7 +239,7 @@ p {
 
 /***************************** MEMBERSHIPS *****************************/
 
-.memberships {
+#memberships {
     padding: 4em 3em;
     background-color:#e2e2e2;
     background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/background-memberships.jpg');
@@ -441,6 +444,7 @@ input[type="text"],
     color: rgb(100 174 245);
     margin-bottom: 2.5rem;
 }
+
 /************************************* FOOTER ************************************/
 .footer_socials a{
     padding-right: 10px;
@@ -456,6 +460,11 @@ input[type="text"],
     display: inline-flex;
     list-style-type: none;
     align-items: center;
+}
+
+.footer__link {
+    color: #000;
+    text-decoration: none;
 }
 
 .footer ul li{

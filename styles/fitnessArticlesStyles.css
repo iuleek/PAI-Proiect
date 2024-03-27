@@ -95,78 +95,91 @@ nav ul {
 
 /* page elements */
 
-h2{
-    color: rgb(100 174 245);
+h2 {
+    color: rgba(62, 105, 194);
     padding: 1em 0;
 }
 
-h3{
-    
+h3 {
+    padding-left: 1em;
 }
 
-hr{
+hr {
     border: 0;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-image: linear-gradient(to right, rgb(100, 174, 245, 0.1), rgba(62, 105, 194, 0.75), rgb(100, 174, 245, 0.1));
 }
 
-.workout__card{
+.workout__cards {
     display: flex;
     padding: 1em;
     margin-left: 1.5em;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
 }
 
-.workout__card__title{
+.workout__card {
+    padding: 0 5%;
+    max-width: 40rem;
+}
+
+.workout__card__title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.workout__card__img{
+.workout__card__img {
     padding: 1em 0 1em;
+    border-radius: 50%;
+    max-height: 176px;
+    max-width: 206px;
 }
 
-.youtube__btn{
-        border-radius: 28px;
-        font-family: Arial;
-        color: #ffffff;
-        font-size: 15px;
-        background: #ff0000;
-        opacity: 80%;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        cursor:pointer;
+.workout__card__img__container {
+    display: flex;
+    align-items: center;
 }
-      
-.youtube__btn:hover{
-        background: #ffffff;
-        text-decoration: none;
-        color: #ff0000;
+
+.youtube__btn {
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #ff0000bf;
+    opacity: 80%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.youtube__btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: #ff0000;
 }
 
 
 /* footer elements */
 .footer__links {
-    display:inline-flex;
+    display: inline-flex;
     list-style-type: none;
     align-items: center;
-}   
+}
 
-.footer_socials a{
+.footer_socials a {
     padding-right: 10px;
 }
 
-.footer-menu{
+.footer-menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.footer ul li{
+.footer ul li {
     color: #000;
     font-weight: 400;
     font-size: 1rem;
@@ -179,7 +192,7 @@ hr{
     height: 50px;
 }
 
-.footer_credits{
+.footer_credits {
     text-align: center;
     padding: 30px 0;
 }

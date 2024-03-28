@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f9e06076a8.js" crossorigin="anonymous"></script>
+
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="styles/myProfileStyles.css">
+    <title>The Health Makeover</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="nav__logo" href="#"><img src="images/black_transparent.png" alt="Logo" width="300" height="35"></a>
+        <div class="nav__content">
+            <ul class="nav__links">
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#memberships">Memberships</a></li>
+                <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
+                <li class="nav__item"><a class="nav__link" href="articles.html">Articles</a></li>
+                <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Trainers</a></li>
+            </ul>
+            <div class="dropdown-menu">
+                <i class="fa-regular fa-user dropbtn"></i>
+                <div class="dropdown-content">
+                    <a href="#">Username</a>
+                    <a href="myProfile.html">My profile</a>
+                </div>
+            </div>
+            <button class="nav__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
+                    height="35px"></img></button>
+        </div>
+    </nav>
+
+    <div class="myProfile_container">
+        <div class="myProfile__left">
+            <img class="myProfile__left__img" src="images/profile.jpg" alt="Profile">
+        </div>
+        <div class="myProfile__right">
+            <h2>Hello, username</h2>
+            <p>Active membership: Standard</p>
+            <div class="myProfile_standard_videos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Prl5NeXTDkk?si=1xr7pZjBhjloMRrv"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n_cIBBDb9JA?si=vd8e8wN1dczEHgLV"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Epit6DSq_ww?si=H1IZf3PtArnbUUH3"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-menu">
+            <div class="footer_socials">
+                <a class="footer__facebook" href="#"><img src="images/facebook.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__instagram" href="#"><img src="images/instagram.png" alt="Logo" width="35"
+                        height="35"></a>
+                <a class="footer__tiktok" href="#"><img src="images/tiktok.png" alt="Logo" width="35" height="35"></a>
+            </div>
+
+            <div class="footer_nav">
+                <ul class="footer__links">
+                    <li class="nav__item"><a class="footer__link" href="index.html">Home</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="index.html#memberships">Memberships</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="food-articles.html">Healthy Eating</a></li>
+                    <div class="vertical"></div>
+                    <li class="nav__item"><a class="footer__link" href="fitness-articles.html">Workouts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_credits">
+            <p>©The Health Makeover Crew</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -165,27 +165,32 @@ hr {
 }
 
 
-/* footer elements */
+/************************************* FOOTER ************************************/
+.footer_socials a{
+    padding-right: 10px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .footer__links {
     display: inline-flex;
     list-style-type: none;
     align-items: center;
 }
 
-.footer_socials a {
-    padding-right: 10px;
+.footer__link {
+    color: #000;
+    text-decoration: none;
 }
 
-.footer-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.footer ul li {
+.footer ul li{
     color: #000;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: grab;
 }
 
@@ -195,7 +200,7 @@ hr {
     height: 50px;
 }
 
-.footer_credits {
+.footer_credits{
     text-align: center;
     padding: 30px 0;
 }

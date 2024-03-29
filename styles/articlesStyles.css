@@ -106,14 +106,21 @@ p {
     background-color: transparent;
 }
 
+/************************************* MAIN PAGE ************************************/
+
+h2{
+    text-align: center;
+    padding: 1em 0;
+}
+
 .latest-articles {
     display: flex;
     justify-content: space-between;
-    padding: 8em 3em;
+    padding: 3em 3em;
 }
 
 .latest-articles__post {
-    width: 30%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +185,6 @@ p {
     color: #4b4a43;
     overflow: hidden
 }
-
 
 /************************************* FOOTER ************************************/
 .footer_socials a{

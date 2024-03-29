@@ -35,21 +35,22 @@
                 <label for="email">Email: </label>
                 <input type="email">
                 <label for="password">Password: </label>
-                <input type="password" minlength="3">
+                <input type="password" minlength="5">
                 <a class="forgotpassword">Forgot password?</a>
                 <div class="logIn_btns">
                     <div class="logIn-btn__container">
-                        <button class="logIn-btn" type="submit">Log in</button>
+                        <button class="logIn-btn" type="submit" onclick="location.href='myProfile.html'">Log in</button>
                     </div>
-                    <div class="signUp__container">
-                        <p class="signUp__message">Don't have an account yet?</p>
-                        <div class="signUp-btn__container">
-                            <button class="signUp-btn" onclick="location.href='index.html'">Press here to sign
-                                up!</button>
-                        </div>
-                    </div>
+                    
                 </div>
             </form>
+            <div class="signUp__container">
+                <p class="signUp__message">Don't have an account yet?</p>
+                <div class="signUp-btn__container">
+                    <button class="signUp-btn" onclick="location.href='signUp.html'">Press here to sign
+                        up!</button>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="footer">

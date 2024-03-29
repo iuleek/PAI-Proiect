@@ -93,14 +93,15 @@ nav ul {
     background-color: transparent;
 }
 
-/* page elements */
-h1{
+/******************************* page elements *******************************/
+h1 {
     text-align: center;
 }
 
 h2 {
-    color: rgba(62, 105, 194);
+    color: rgb(51, 87, 160);
     padding: 1em 0;
+    font-size: 1.7em;
 }
 
 h3 {
@@ -146,6 +147,10 @@ hr {
     align-items: center;
 }
 
+.workout__card p {
+    font-size: 1.2em;
+}
+
 .youtube__btn {
     border-radius: 28px;
     font-family: Arial;
@@ -166,11 +171,11 @@ hr {
 
 
 /************************************* FOOTER ************************************/
-.footer_socials a{
+.footer_socials a {
     padding-right: 10px;
 }
 
-.footer-menu{
+.footer-menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -187,7 +192,7 @@ hr {
     text-decoration: none;
 }
 
-.footer ul li{
+.footer ul li {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
@@ -200,7 +205,7 @@ hr {
     height: 50px;
 }
 
-.footer_credits{
+.footer_credits {
     text-align: center;
     padding: 30px 0;
 }

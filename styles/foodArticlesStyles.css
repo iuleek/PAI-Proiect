@@ -191,6 +191,14 @@ html {
   padding: 1rem;
 }
 
+.card_text ul {
+  list-style-type: square;
+}
+
+.recipe__step {
+  margin-bottom: 15px;
+}
+
 h2.card_title,p {
   margin: 1rem 0;
 }

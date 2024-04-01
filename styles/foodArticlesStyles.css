@@ -18,6 +18,14 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 1em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+.nav__toggler {
+  cursor: pointer;
 }
 
 .nav__toggler {
@@ -28,8 +36,14 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.nav__links {
+  display: inline-flex;
+  list-style-type: none;
 .nav__links {
   display: inline-flex;
   list-style-type: none;
@@ -38,17 +52,24 @@ a {
 
 .nav__item {
   margin-left: 40px;
+  margin-left: 40px;
 }
 
+.nav__link {
+  text-decoration: none;
 .nav__link {
   text-decoration: none;
 }
 
 .nav__item a:hover {
   color: #51ADCF;
+  color: #51ADCF;
 }
 
 .nav__link {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.2rem;
   color: #000;
   font-weight: 400;
   font-size: 1.2rem;
@@ -60,8 +81,23 @@ a {
   align-items: center;
   background-color: white;
   margin-left: 40px;
+.btn__outlined__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 40px;
 }
 
+.btn__outlined {
+  padding: 12px 15px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+  cursor: pointer;
 .btn__outlined {
   padding: 12px 15px;
   border: none;
@@ -84,8 +120,22 @@ a {
   background-color: white;
   z-index: -1;
   transition: 200ms
+.btn__outlined::before {
+  content: "";
+  position: absolute;
+  left: 1.5px;
+  right: 1.5px;
+  top: 1.5px;
+  bottom: 1.5px;
+  border-radius: 4px;
+  background-color: white;
+  z-index: -1;
+  transition: 200ms
 }
 
+.btn__outlined::after {
+  color: transparent;
+  transition: 200ms
 .btn__outlined::after {
   color: transparent;
   transition: 200ms
@@ -97,8 +147,16 @@ a {
   right: 0px;
   bottom: 0px;
   left: 0px;
+.btn__outlined:hover::before {
+  opacity: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
+.btn__outlined:hover::after {
+  color: white;
 .btn__outlined:hover::after {
   color: white;
 }
@@ -107,19 +165,23 @@ a {
   margin-left: 30px;
   border: none;
   background-color: transparent;
+  margin-left: 30px;
+  border: none;
+  background-color: transparent;
 }
+
 
 
 /* page */
 .main {
-  background-color: #B7C9F2;
+  background-color: #98d8f5ab;
   font-family:monospace;
 }
 
 .h2-main{
     text-align: center;
     margin-top: 0;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .cards {
@@ -187,6 +249,14 @@ a {
   padding: 1rem;
 }
 
+.card_text ul {
+  list-style-type: square;
+}
+
+.recipe__step {
+  margin-bottom: 15px;
+}
+
 h2.card_title,p {
   margin: 1rem 0;
 }
@@ -194,15 +264,9 @@ h2.card_title {
     font-size: 1.1em;
 }
 
-/* footer elements */
-.footer__links {
-    display:inline-flex;
-    list-style-type: none;
-    align-items: center;
-}   
-
+/************************************* FOOTER ************************************/
 .footer_socials a{
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .footer-menu{
@@ -212,17 +276,28 @@ h2.card_title {
     padding: 1em 3em;
 }
 
+.footer__links {
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer__link {
+  color: #000;
+  text-decoration: none;
+}
+
 .footer ul li{
-    color: #000;
-    font-weight: 400;
-    font-size: 1rem;
-    cursor: grab;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.2rem;
+  cursor: grab;
 }
 
 .vertical {
-    margin-left: 30px;
-    border-left: 1px solid black;
-    height: 50px;
+  margin-left: 30px;
+  border-left: 1px solid black;
+  height: 50px;
 }
 
 .footer_credits{

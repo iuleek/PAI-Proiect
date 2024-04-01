@@ -11,13 +11,14 @@
 
 <body>
   <nav class="nav">
-    <a class="nav__logo" href="index.html"><img src="images/black_transparent.png" alt="Logo" width="300" height="35"></a>
+    <a class="nav__logo" href="#"><img src="images/black_transparent.png" alt="Logo" width="300" height="35"></a>
     <div class="nav__content">
       <ul class="nav__links">
         <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
-        <li class="nav__item"><a class="nav__link" href="index.html #memberships">Memberships</a></li>
+        <li class="nav__item"><a class="nav__link" href="index.html#memberships">Memberships</a></li>
         <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
-        <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
+        <li class="nav__item"><a class="nav__link" href="articles.html">Articles</a></li>
+        <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Trainers</a></li>
       </ul>
       <div class="nav__signin__btn btn__outlined__wrapper">
         <button class="nav__signin__btn btn__outlined" onclick="location.href='logIn.html'">Sign up/Log in</button>
@@ -30,114 +31,105 @@
   <div class="main">
     <h2 class="h2-main">Here are some recipes that we encourage you to try!</h2>
     <ul class="cards">
+      <!-- Recipe 1: Fiber-Packed Spicy White Bean & Spinach Salad -->
       <li class="cards_item">
         <div class="card">
-          <div class="card_image"><img
-              src="https://www.eatingwell.com/thmb/Ib5aSbBYXaBBR4gM2Otptt_aMh4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Moroccan-Spiced-White-Bean-Salad-3x2-097-2000-a7a5faffbdae4bf9af2d64f26129509b.jpg"
-              alt="mixed vegetable salad in a mason jar. "></div>
+          <div class="card_image"><img src="https://www.eatingwell.com/thmb/Ib5aSbBYXaBBR4gM2Otptt_aMh4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Moroccan-Spiced-White-Bean-Salad-3x2-097-2000-a7a5faffbdae4bf9af2d64f26129509b.jpg" alt="mixed vegetable salad in a mason jar."></div>
           <div class="card_content">
-            <h2 class="card_title">Fiber-Packed Spicy White Bean & Spinach Salad &#x2022; 10mins</h2>
+            <h2 class="card_title">Fiber-Packed Spicy White Bean & Spinach Salad • 10mins</h2>
             <div class="card_text">
               <p>Servings: 4</p>
-              <p>Ingredients:</p>
-              <p>&#x2022; 2 (15-ounce) cans no-salt-added cannellini beans, rinsed</p>
-              <p>&#x2022; 1/3 cup whole-milk plain yogurt</p>
-              <p>&#x2022; 3/4 teaspoon ras el hanout</p>
-              <p>&#x2022; 1/2 teaspoon refrigerated garlic paste</p>
-              <p>&#x2022; 1/2 teaspoon salt </p>
-              <p>&#x2022; 1/2 teaspoon honey</p>
-              <p>&#x2022; 2 tablespoons extra-virgin olive oil</p>
-              <p>&#x2022; 1 tablespoon red-wine vinegar</p>
-              <p>&#x2022; 1 tablespoon harissa paste</p>
-              <p>&#x2022; 1 (5 ounce) package baby spinach</p>
-              <p>&#x2022; cup julienned carrots</p>
-              <p>&#x2022; 1/4 cup unsalted roasted almonds, chopped</p>
-              <p>&#x2022; 3 tablespoons golden raisins </p>
-
-              <p>Directions: </p>
-              <p>Step1: Combine beans, yogurt, ras el hanout, garlic paste, salt and honey in a medium bowl; stir to
-                incorporate, coarsely mashing beans, if desired. </p>
-              <p>Step2: Whisk oil, vinegar and harissa together in a large bowl. Add spinach, carrots, almonds and
-                raisins; toss to coat. Serve the spinach mixture with the bean salad. </p>
-
+              <p><em>Ingredients:</em></p>
+              <ul>
+                <li>2 (15-ounce) cans no-salt-added cannellini beans, rinsed</li>
+                <li>1/3 cup whole-milk plain yogurt</li>
+                <li>3/4 teaspoon ras el hanout</li>
+                <li>1/2 teaspoon refrigerated garlic paste</li>
+                <li>1/2 teaspoon salt</li>
+                <li>1/2 teaspoon honey</li>
+                <li>2 tablespoons extra-virgin olive oil</li>
+                <li>1 tablespoon red-wine vinegar</li>
+                <li>1 tablespoon harissa paste</li>
+                <li>1 (5 ounce) package baby spinach</li>
+                <li>1 cup julienned carrots</li>
+                <li>1/4 cup unsalted roasted almonds, chopped</li>
+                <li>3 tablespoons golden raisins</li>
+              </ul>
+              <p><em>Directions:</em></p>
+              <ul>
+                <li class="recipe__step"><strong>Step 1:</strong> Combine beans, yogurt, ras el hanout, garlic paste, salt, and honey in a medium bowl; stir to incorporate, coarsely mashing beans if desired.</li>
+                <li class="recipe__step"><strong>Step 2:</strong> Whisk oil, vinegar, and harissa together in a large bowl. Add spinach, carrots, almonds, and raisins; toss to coat. Serve the spinach mixture with the bean salad.</li>
+              </ul>
             </div>
           </div>
         </div>
       </li>
 
+      <!-- Recipe 2: Stuffed Pepper Casserole -->
       <li class="cards_item">
         <div class="card">
-          <div class="card_image"><img
-              src="https://www.eatingwell.com/thmb/MoBbv07lkEdM7FDEhGnXpxJDOvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Stuffed-Pepper-Casserole-057-1-2000-20d3a61f8abd44278a82fa0839476729.jpg"
-              alt="a Reuben sandwich on wax paper. "></div>
+          <div class="card_image"><img src="https://www.eatingwell.com/thmb/MoBbv07lkEdM7FDEhGnXpxJDOvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Stuffed-Pepper-Casserole-057-1-2000-20d3a61f8abd44278a82fa0839476729.jpg" alt="a Reuben sandwich on wax paper."></div>
           <div class="card_content">
-            <h2 class="card_title">Stuffed Pepper Casserole &#x2022; 55mins</h2>
+            <h2 class="card_title">Stuffed Pepper Casserole • 55mins</h2>
             <div class="card_text">
               <p>Servings: 6</p>
-              <p>Ingredients:</p>
-              <p>&#x2022; 2 tablespoons extra-virgin olive oil</p>
-              <p>&#x2022; 1 pound 90%-lean ground beef</p>
-              <p>&#x2022; 1 large red onion, thinly sliced</p>
-              <p>&#x2022; 3 medium multicolored bell peppers, thinly sliced</p>
-              <p>&#x2022; 6 cloves garlic, chopped </p>
-              <p>&#x2022; 2 teaspoons smoked paprika</p>
-              <p>&#x2022; 2 teaspoons dried oregano</p>
-              <p>&#x2022; 1 teaspoon salt</p>
-              <p>&#x2022; 3/4 teaspoon ground pepper</p>
-              <p>&#x2022; 2 tablespoons tomato paste</p>
-              <p>&#x2022; 1 (14.5 ounce) can no-salt-added fire-roasted diced tomatoes, drained</p>
-              <p>&#x2022; 1 (8.8-ounce) package cooked brown rice</p>
-              <p>&#x2022; 1/2 cup unsalted beef broth </p>
-              <p>&#x2022; 1 cup shredded low-moisture part-skim mozzarella cheese</p>
-              <p>&#x2022; Chopped fresh flat-leaf parsley for garnish (optional) </p>
-
-              <p>Directions: </p>
-              <p>Step1:
-
-                Preheat oven to 400°F. Heat oil in a large nonstick skillet over medium heat. Add beef; cook, stirring
-                often and using the back of a spoon to break it up, until cooked through and no longer pink, about 5
-                minutes. Add onion, bell peppers, garlic, paprika, oregano, salt and pepper; cook, stirring often, until
-                the vegetables are tender, about 8 minutes. Increase heat to medium-high and stir in tomato paste; cook,
-                stirring constantly, until the paste darkens in color, about 1 minute. Remove from heat. Stir in drained
-                tomatoes, rice and broth.
-
-              </p>
-              <p>Step2: Transfer the mixture to a 9-by-13-inch baking dish; cover with foil. Bake until the rice is
-                tender and the flavors meld, about 20 minutes. Uncover and sprinkle evenly with cheese. Bake, uncovered,
-                until the cheese is melted and beginning to bubble, about 10 minutes. Garnish with parsley, if desired.
-              </p>
+              <p><em>Ingredients:</em></p>
+              <ul>
+                <li>2 tablespoons extra-virgin olive oil</li>
+                <li>1 pound 90%-lean ground beef</li>
+                <li>1 large red onion, thinly sliced</li>
+                <li>3 medium multicolored bell peppers, thinly sliced</li>
+                <li>6 cloves garlic, chopped</li>
+                <li>2 teaspoons smoked paprika</li>
+                <li>2 teaspoons dried oregano</li>
+                <li>1 teaspoon salt</li>
+                <li>3/4 teaspoon ground pepper</li>
+                <li>2 tablespoons tomato paste</li>
+                <li>1 (14.5 ounce) can no-salt-added fire-roasted diced tomatoes, drained</li>
+                <li>1 (8.8-ounce) package cooked brown rice</li>
+                <li>1/2 cup unsalted beef broth</li>
+                <li>1 cup shredded low-moisture part-skim mozzarella cheese</li>
+                <li>Chopped fresh flat-leaf parsley for garnish (optional)</li>
+              </ul>
+              <p><em>Directions:</em></p>
+              <ul>
+                <li class="recipe__step"><strong>Step 1:</strong> Preheat oven to 400°F. Heat oil in a large nonstick skillet over medium heat. Add beef; cook, stirring often and using the back of a spoon to break it up, until cooked through and no longer pink, about 5 minutes. Add onion, bell peppers, garlic, paprika, oregano, salt, and pepper; cook, stirring often, until the vegetables are tender, about 8 minutes. Increase heat to medium-high and stir in tomato paste; cook, stirring constantly, until the paste darkens in color, about 1 minute. Remove from heat. Stir in drained tomatoes, rice, and broth.</li>
+                <li class="recipe__step"><strong>Step 2:</strong> Transfer the mixture to a 9-by-13-inch baking dish; cover with foil. Bake until the rice is tender and the flavors meld, about 20 minutes. Uncover and sprinkle evenly with cheese. Bake, uncovered, until the cheese is melted and beginning to bubble, about 10 minutes. Garnish with parsley, if desired.</li>
+              </ul>
             </div>
           </div>
         </div>
       </li>
+
+      <!-- Recipe 3: Fig & Berry Plate -->
       <li class="cards_item">
         <div class="card">
-          <div class="card_image"><img
-              src="https://www.eatingwell.com/thmb/RNZTaobFeHWHnhpQ1j3owR48w14=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45362581-cf369c6f2e2443099def79688d15f955.jpg"
-              alt="A side view of a plate of figs and berries. "></div>
+          <div class="card_image"><img src="https://www.eatingwell.com/thmb/RNZTaobFeHWHnhpQ1j3owR48w14=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/45362581-cf369c6f2e2443099def79688d15f955.jpg" alt="A side view of a plate of figs and berries."></div>
           <div class="card_content">
-            <h2 class="card_title">Fig &amp; Berry Plate &#x2022; 3hrs 10mins</h2>
+            <h2 class="card_title">Fig & Berry Plate • 3hrs 10mins</h2>
             <div class="card_text">
               <p>Servings: 32</p>
-              <p>Ingredients:</p>
-              <p>&#x2022; 3 cups whole-milk plain Greek yogurt</p>
-              <p>&#x2022; 1/4 ccup pure maple syrup or honey</p>
-              <p>&#x2022; 1 teaspoon vanilla extract</p>
-              <p>&#x2022; 1 1/2 cups sliced strawberries</p>
-              <p>&#x2022; 1/4 cup mini chocolate chips </p>
-
-
-              <p>Directions: </p>
-              <p>Step1: Line a large rimmed baking sheet with parchment paper. </p>
-              <p>Step2: Stir yogurt, maple syrup (or honey) and vanilla in a medium bowl. Spread on the prepared baking
-                sheet into a 10-by-15-inch rectangle. Scatter the strawberries on top and sprinkle with chocolate chips.
-              </p>
-              <p>Step3: Freeze until very firm, at least 3 hours. To serve, cut or break into 32 pieces. </p>
+              <p><em>Ingredients:</em></p>
+              <ul>
+                <li>3 cups whole-milk plain Greek yogurt</li>
+                <li>1/4 cup pure maple syrup or honey</li>
+                <li>1 teaspoon vanilla extract</li>
+                <li>1/4 cup mini chocolate chips</li>
+              </ul>
+              <p><em>Directions:</em></p>
+              <ul>
+                <li class="recipe__step"><strong>Step 1:</strong> Line a large rimmed baking sheet with parchment paper.</li>
+                <li class="recipe__step"><strong>Step 2:</strong> Stir yogurt, maple syrup (or honey), and vanilla in a medium bowl. Spread on the prepared baking sheet into a 10-by-15-inch rectangle. Scatter the strawberries on top and sprinkle with chocolate chips.</li>
+                <li class="recipe__step"><strong>Step 3:</strong> Freeze until very firm, at least 3 hours. To serve, cut or break into 32 pieces.</li>
+              </ul>
             </div>
           </div>
         </div>
       </li>
     </ul>
+  </div>
+
+ 
   </div>
   <footer class="footer">
     <div class="footer-menu">
@@ -151,7 +143,7 @@
         <ul class="footer__links">
           <li class="nav__item"><a class="footer__link" href="index.html">Home</a></li>
           <div class="vertical"></div>
-          <li class="nav__item"><a class="footer__link" href="index.html #memberships">Memberships</a></li>
+          <li class="nav__item"><a class="footer__link" href="index.html#memberships">Memberships</a></li>
           <div class="vertical"></div>
           <li class="nav__item"><a class="footer__link" href="food-articles.html">Healthy Eating</a></li>
           <div class="vertical"></div>

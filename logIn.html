@@ -16,9 +16,10 @@
         <div class="nav__content">
             <ul class="nav__links">
                 <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
-                <li class="nav__item"><a class="nav__link" href="index.html #memberships">Memberships</a></li>
+                <li class="nav__item"><a class="nav__link" href="index.html#memberships">Memberships</a></li>
                 <li class="nav__item"><a class="nav__link" href="food-articles.html">Healthy Eating</a></li>
-                <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
+                <li class="nav__item"><a class="nav__link" href="articles.html">Articles</a></li>
+                <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Trainers</a></li>
             </ul>
             <div class="nav__signin__btn__container">
                 <button class="nav__signin__btn" onclick="location.href='logIn.html'">Sign up/Log in</button>
@@ -34,18 +35,20 @@
                 <label for="email">Email: </label>
                 <input type="email" id="email">
                 <label for="password">Password: </label>
-                <input type="password" id="password" minlength="3">
+                <input type="password" minlength="5">
                 <a class="forgotpassword">Forgot password?</a>
-                <div class="logIn-btn__container">
-                    <button class="logIn-btn" type="submit">Log in</button>
+                <div class="logIn_btns">
+                    <div class="logIn-btn__container">
+                        <button class="logIn-btn" type="submit" onclick="location.href='myProfile.html'">Log in</button>
+                    </div>
+                    
                 </div>
             </form>
-            <div class="logIn_btns">
-                <div class="signUp__container">
-                    <p class="signUp__message">Don't have an account yet?</p>
-                    <div class="signUp-btn__container">
-                        <button class="signUp-btn" onclick="location.href='signUp.html'">Press here to sign up!</button>
-                    </div>
+            <div class="signUp__container">
+                <p class="signUp__message">Don't have an account yet?</p>
+                <div class="signUp-btn__container">
+                    <button class="signUp-btn" onclick="location.href='signUp.html'">Press here to sign
+                        up!</button>
                 </div>
             </div>
         </div>
@@ -64,7 +67,7 @@
                 <ul class="footer__links">
                     <li class="nav__item"><a class="footer__link" href="index.html">Home</a></li>
                     <div class="vertical"></div>
-                    <li class="nav__item"><a class="footer__link" href="index.html #memberships">Memberships</a></li>
+                    <li class="nav__item"><a class="footer__link" href="index.html#memberships">Memberships</a></li>
                     <div class="vertical"></div>
                     <li class="nav__item"><a class="footer__link" href="food-articles.html">Healthy Eating</a></li>
                     <div class="vertical"></div>

@@ -1,5 +1,11 @@
-body, h1, h2, h3, h4, p {
+body,
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0px;
+    padding: 0;
 }
 
 /***************************** NAV BAR *****************************/
@@ -78,7 +84,6 @@ body, h1, h2, h3, h4, p {
 }
 
 .btn__outlined::after {
-    background: linear-gradient(to left, #00FFA3, #DC1FFF);
     color: transparent;
     transition: 200ms
 }
@@ -101,63 +106,86 @@ body, h1, h2, h3, h4, p {
     background-color: transparent;
 }
 
-/************************************* SIGN UP ************************************/
-.signUp {
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 0 100px;
-}
+/************************************* MAIN PAGE ************************************/
 
-.signUp__container {
-    max-width: 500px;
-    margin: 50px 150px 0;
-    padding: 50px 50px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 2px 2px 5px gray;
-}
-
-a {
-    text-decoration:none;
-   }
-   input[type="text"],
-   input[type="email"],
-   input[type="password"],
-   input[type="tel"]{
-       width: 100%;
-       padding: 8px;
-       margin: 7px 0;
-       border-radius: 3px;
-       border: 1px solid #ccc;
-       box-sizing: border-box;
-   }
-
-
-.signUp__title {
-    font-size: 2em;
-    margin-bottom: 1rem;
+h2{
     text-align: center;
+    padding: 1em 0;
 }
 
-.signUp__message {
-    font-size: 1.3em;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: #025cab;
+.latest-articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 3em;
 }
 
-.signUp__btn__wrapper {
-    margin: 0;
-    background-color: transparent;
-    margin-top: 1.5rem;
-    color: #025cab;
+.latest-articles__post {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 20px;
 }
 
-.signUp__btn {
-    width: 70%;
-    font-size: 1.2em;
+.latest-articles__post__img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
+
+.latest-articles__post_title {
+    font-size: 1.5rem;
+    padding-top: 1em;
+}
+
+.latest-articles__post__top {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+
+.latest-articles__post__text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.latest-articles__post__btn {
+    padding: 1em 0 1em 2em;
+    display: flex;
+    align-items: flex-end;
+    background: transparent;
+    border: none;
+    cursor: grab;
+
+}
+
+.latest-articles__post__bottom {
+    background-color: #98d8f5ab;
+    border-top: lightgray;
+    display: flex;
+    width: 95%;
+    height: 40%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 5%;
+    transition: 0.3s ease-in-out;
+}
+
+.latest-articles__post__bottom:hover {
+    background-color: #48c5ffab;
+    transition: 0.3s ease-in-out;
+}
+
+.latest-articles__post_description {
+    padding: 1.2em 0;
+    color: #4b4a43;
+    overflow: hidden
+}
+
 /************************************* FOOTER ************************************/
 .footer_socials a{
     padding-right: 10px;

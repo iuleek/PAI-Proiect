@@ -1,3 +1,14 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+hr {
+    margin: 0px;
+    padding: 0;
+}
+
 /* navbar */
 .nav {
     display: flex;
@@ -113,14 +124,12 @@ hr {
 
 .workout__cards {
     display: flex;
-    padding: 1em;
+    justify-content: space-between;
+    padding: 1em 3em;
     margin-left: 1.5em;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .workout__card {
-    padding: 0 5%;
     max-width: 40rem;
 }
 
@@ -176,7 +185,8 @@ hr {
 .footer-menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1em 3em;
 }
 
 .footer ul li {
@@ -194,5 +204,4 @@ hr {
 
 .footer_credits {
     text-align: center;
-    padding: 30px 0;
 }

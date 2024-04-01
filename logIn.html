@@ -21,7 +21,7 @@
                 <li class="nav__item"><a class="nav__link" href="fitness-articles.html">Workouts</a></li>
             </ul>
             <div class="nav__signin__btn__container">
-                <button class="nav__signin__btn" onclick="location.href='logIn.html'">Sign in/Log in</button>
+                <button class="nav__signin__btn" onclick="location.href='logIn.html'">Sign up/Log in</button>
             </div>
             <button class="nav__toggler"><img src="images/burger-menu-svgrepo-com.svg" alt="Menu" width="35px"
                     height="35px"></img></button>
@@ -29,26 +29,25 @@
     </nav>
     <div class="container-logIn">
         <div class="logIn__section">
-            <form>
+            <form class="logIn__form">
                 <h2>Log in to stay updated!</h2>
                 <label for="email">Email: </label>
-                <input type="email">
+                <input type="email" id="email">
                 <label for="password">Password: </label>
-                <input type="password" minlength="3">
+                <input type="password" id="password" minlength="3">
                 <a class="forgotpassword">Forgot password?</a>
-                <div class="logIn_btns">
-                    <div class="logIn-btn__container">
-                        <button class="logIn-btn" type="submit">Log in</button>
-                    </div>
-                    <div class="signUp__container">
-                        <p class="signUp__message">Don't have an account yet?</p>
-                        <div class="signUp-btn__container">
-                            <button class="signUp-btn" onclick="location.href='index.html'">Press here to sign
-                                up!</button>
-                        </div>
-                    </div>
+                <div class="logIn-btn__container">
+                    <button class="logIn-btn" type="submit">Log in</button>
                 </div>
             </form>
+            <div class="logIn_btns">
+                <div class="signUp__container">
+                    <p class="signUp__message">Don't have an account yet?</p>
+                    <div class="signUp-btn__container">
+                        <button class="signUp-btn" onclick="location.href='signUp.html'">Press here to sign up!</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="footer">

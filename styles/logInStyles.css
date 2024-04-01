@@ -162,7 +162,7 @@ a {
     background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
     cursor: pointer;
     width: 70%;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .logIn-btn::before {
@@ -179,7 +179,6 @@ a {
 }
 
 .logIn-btn::after {
-    background: linear-gradient(to left, #00FFA3, #DC1FFF);
     color: transparent;
     transition: 200ms
 }
@@ -204,59 +203,35 @@ a {
     cursor: pointer;
 }
 
-.signUp-btn__container {
+/***************************************************************************************************************************/
+
+ .signUp-btn__container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
 }
 
-.signUp-btn  {
+.signUp-btn {
     padding: 12px 15px;
     border: none;
     position: relative;
-   /* z-index: 1;*/
     font-size: 1.2rem;
     border-radius: 5px;
-    background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
+    background: linear-gradient(0deg, rgba(81, 173, 207, 0.642) 0%, rgba(62, 106, 194, 0.571) 100%);
     cursor: pointer;
 }
 
-.signUp-btn::before {
-    color: transparent;
-    transition: 200ms;
-}
-
-.signUp-btn::after {
-    content: "";
-    position: absolute;
-    left: 1.5px;
-    right: 1.5px;
-    top: 1.5px;
-    bottom: 1.5px;
-    border-radius: 4px;
-    background-color: white;
-    z-index: -1;
-    transition: 200ms;
+.signUp-btn:hover {
+    background: linear-gradient(0deg, rgba(81, 173, 207) 0%, rgba(62, 106, 194) 100%);
 }
 
 
-.signUp-btn:hover::before {
-    color: white;
-}
-
-.signUp-btn:hover:after {
-    opacity: 50%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: 1;
-}
+/*******************************************************************************************************************/
 
 .forgotpassword{
     color: rgba(62,105,194);
-    cursor: grab;
+    cursor: pointer;
 }
 
 /* footer elements */
@@ -267,7 +242,8 @@ a {
 .footer-menu{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1em 3em;
 }
 
 .footer ul li{
@@ -285,5 +261,4 @@ a {
 
 .footer_credits{
     text-align: center;
-    padding: 30px 0;
 }

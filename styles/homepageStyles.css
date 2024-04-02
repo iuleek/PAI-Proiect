@@ -1,20 +1,22 @@
+/************************************************* GENERAL SETTINGS ******************************************************/
+
 body,
 h1,
 h2,
 h3,
 h4,
 p {
-    margin: 0px;
+    margin: 0;
     padding: 0;
 }
 
-/***************************** NAV BAR *****************************/
+/******************************************************* NAV BAR *************************************************************/
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 3em;
+    padding: 1rem 3rem;
 }
 
 .nav__toggler {
@@ -30,15 +32,10 @@ p {
 .nav__links {
     display: inline-flex;
     list-style-type: none;
-
 }
 
 .nav__item {
-    margin-left: 40px;
-}
-
-.nav__link {
-    text-decoration: none;
+    margin-left: 2.5rem;
 }
 
 .nav__item a:hover {
@@ -49,14 +46,14 @@ p {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .btn__outlined__wrapper {
+    background-color: white;
+    margin-left: 2.5rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin-left: 40px;
 }
 
 .btn__outlined {
@@ -90,10 +87,10 @@ p {
 
 .btn__outlined:hover::before {
     opacity: 50%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .btn__outlined:hover::after {
@@ -101,12 +98,12 @@ p {
 }
 
 .nav__toggler {
-    margin-left: 30px;
+    margin-left: 2rem;
     border: none;
     background-color: transparent;
 }
 
-/***************************** ABOUT SECTION *****************************/
+/********************************************** ABOUT SECTION *********************************************/
 
 .about {
     background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/background-about.jpg');
@@ -114,7 +111,7 @@ p {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 1em 3em;
+    padding: 1rem 3rem;
 }
 
 .about__btns {
@@ -135,7 +132,7 @@ p {
     font-size: 1.2rem;
     opacity: 0.8;
     transition: 0.3s ease-in-out;
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 .about__btn:hover {
@@ -156,18 +153,18 @@ p {
 .about__left__text {
     font-size: 1.5rem;
     color: black;
-    margin: 2em 0;
+    margin: 2rem 0;
     background-color: white;
     opacity: 0.65;
-    padding: 1em;
+    padding: 1rem;
 }
 
-/***************************** LATEST ARTICLES *****************************/
+/*********************************************** LATEST ARTICLES ***********************************************/
 
 .latest-articles {
     display: flex;
     justify-content: space-between;
-    padding: 8em 3em;
+    padding: 8rem 3rem;
 }
 
 .latest-articles__post {
@@ -175,21 +172,18 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
+    border: 1px solid lightgray;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .latest-articles__post__img {
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
 }
 
 .latest-articles__post_title {
     font-size: 1.5rem;
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
 .latest-articles__post__top {
@@ -205,7 +199,7 @@ p {
 }
 
 .latest-articles__post__btn {
-    padding: 1em 0 1em 2em;
+    padding: 1rem 0 1rem 2rem;
     display: flex;
     align-items: flex-end;
     background: transparent;
@@ -216,13 +210,9 @@ p {
 
 .latest-articles__post__bottom {
     background-color: #98d8f5ab;
-    border-top: lightgray;
     display: flex;
-    width: 95%;
     height: 40%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-left: 5%;
+    padding-left: 1rem;
     transition: 0.3s ease-in-out;
 }
 
@@ -232,12 +222,12 @@ p {
 }
 
 .latest-articles__post_description {
-    padding: 1.2em 0;
+    padding: 1.2rem 0;
     color: #4b4a43;
     overflow: hidden
 }
 
-/***************************** MEMBERSHIPS *****************************/
+/*********************************************** MEMBERSHIPS *****************************************************/
 
 #memberships {
     padding: 4em 3em;
@@ -253,15 +243,14 @@ p {
     width: 25%;
     border: 2px solid #fff;
     border-radius: 10px;
+    overflow: hidden;
     background-color: #fff;
 }
 
 .memberships__offer__top {
     display: flex;
     justify-content: center;
-    padding: 1em;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    padding: 1rem;
 }
 
 .memberships__offer__top.premium {
@@ -277,7 +266,7 @@ p {
 }
 
 .memberships__offer__middle {
-    border-left: 11.5vw solid transparent;
+    border-left: 11.5vw solid transparent; /*relative to 1% of the width of the root element*/
 	border-right: 11.5vw solid transparent;
 }
 .memberships__offer__bottom {
@@ -321,8 +310,8 @@ p {
 .memberships__offer__price {
     display: flex;
     justify-content: center;
-    padding: 0.5em 0 0 0;
-    font-size: 3em;
+    padding: 0.5rem 0 0 0;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -339,18 +328,16 @@ p {
 }
 
 .memberships__offer__content {
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
     background-color: #fff;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 } 
 
 .memberships__offer__content p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .memberships__offer__content__icon {
@@ -362,15 +349,15 @@ p {
 .memberships__offer__btn {
     display: flex;
     justify-content: center;
-    margin: 0 0 2em;
+    margin: 0 0 2rem;
 }
 
 .memberships__btn {
-    padding: 0.5em 1.5em;
+    padding: 0.5rem 1.5rem;
     background-color: #fff;
     border-radius: 25px;
-    font-size: 1em;
-    transition-duration: 0.4s;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
     border: 2px solid;
 }
 
@@ -390,11 +377,11 @@ p {
     border-color: rgb(9, 81, 148);
 }
 
-/************************************* SUBSCRIBE ************************************/
+/************************************************* SUBSCRIBE ******************************************************/
 
 .subscribe {
     display: flex;
-    margin: 4em 3em;
+    margin: 4rem 3rem;
     align-items: center;
 }
 
@@ -413,13 +400,13 @@ p {
 }
 
 .subscribe__title {
-    font-size: 4em;
+    font-size: 4rem;
     color: rgb(100 174 245);
     margin-bottom: 1.5rem;
 }
 
 form label {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 input[type="text"],
@@ -434,17 +421,18 @@ input[type="text"],
    }
 
 .subscribe__form__btn {
-    font-size: 1.2em;
-    margin: 1em;
+    font-size: 1.2rem;
+    margin: 1rem;
 }
 
 .subscribe__message {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
     color: rgb(100 174 245);
     margin-bottom: 2.5rem;
 }
-/************************************* FOOTER ************************************/
+
+/************************************************* FOOTER ************************************************/
 .footer_socials a{
     padding-right: 10px;
 }
@@ -453,7 +441,7 @@ input[type="text"],
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 3em;
+    padding: 1rem 3rem;
 }
 
 .footer__links {

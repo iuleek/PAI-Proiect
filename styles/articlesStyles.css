@@ -1,3 +1,5 @@
+/************************************************* GENERAL SETTINGS ******************************************************/
+
 body,
 h1,
 h2,
@@ -8,7 +10,7 @@ p {
     padding: 0;
 }
 
-/***************************** NAV BAR *****************************/
+/******************************************************* NAV BAR *************************************************************/
 
 .nav {
     display: flex;
@@ -17,9 +19,6 @@ p {
     padding: 1em 3em;
 }
 
-.nav__toggler {
-    cursor: pointer;
-}
 
 .nav__content {
     display: flex;
@@ -30,15 +29,10 @@ p {
 .nav__links {
     display: inline-flex;
     list-style-type: none;
-
 }
 
 .nav__item {
     margin-left: 40px;
-}
-
-.nav__link {
-    text-decoration: none;
 }
 
 .nav__item a:hover {
@@ -49,6 +43,7 @@ p {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .btn__outlined__wrapper {
@@ -104,9 +99,10 @@ p {
     margin-left: 30px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
-/************************************* MAIN PAGE ************************************/
+/******************************************************* MAIN PAGE ********************************************/
 
 h2{
     text-align: center;
@@ -186,7 +182,8 @@ h2{
     overflow: hidden
 }
 
-/************************************* FOOTER ************************************/
+/***************************************************** FOOTER **************************************************/
+
 .footer_socials a{
     padding-right: 10px;
 }
@@ -194,7 +191,8 @@ h2{
 .footer-menu{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1em 3em;
 }
 
 .footer__links {
@@ -223,5 +221,4 @@ h2{
 
 .footer_credits{
     text-align: center;
-    padding: 30px 0;
 }

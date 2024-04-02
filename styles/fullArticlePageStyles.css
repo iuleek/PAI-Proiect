@@ -108,17 +108,44 @@ p {
 
 /************************************* ARTICLE PAGE *****************************************/
 .container{
+    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/diet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 3rem;
+}
+
+.article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container img{
-    width:35%;
-}
-
-.article{
-    padding: 2em;
+.article__top, .article__subsection{
+    background-color: #fff;
+    opacity: 80%;
+    padding: 1rem;
     font-size: 1.2rem;
+}
+
+.article__subsection {
+    margin: 2rem 0;;
+}
+
+.article__subsection__title {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.article__top {
+    margin-bottom: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article__subsection__content {
+    margin: 1rem 0;
 }
 
 /************************************* FOOTER ************************************/

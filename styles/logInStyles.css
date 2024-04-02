@@ -103,7 +103,7 @@ nav ul {
 }
 
 
-/* form elements & page */
+/********************** form elements & page ******************************/
 
 h2 {
     margin: 20px 0;
@@ -135,6 +135,11 @@ a {
        box-sizing: border-box;
    }
 
+   .forgotpassword{
+    color: rgba(62, 105, 194, 1);
+    cursor: pointer;
+   }
+
 .container-logIn{
     background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
     background-repeat: no-repeat;
@@ -162,7 +167,7 @@ a {
     background: linear-gradient(0deg, rgba(81, 173, 207, 1) 0%, rgba(62, 105, 194, 1) 100%);
     cursor: pointer;
     width: 70%;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .logIn-btn::before {

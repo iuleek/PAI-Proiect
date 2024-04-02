@@ -227,14 +227,7 @@ a {
 }
 
 
-/*******************************************************************************************************************/
-
-.forgotpassword{
-    color: rgba(62,105,194);
-    cursor: pointer;
-}
-
-/* footer elements */
+/************************************* FOOTER ************************************/
 .footer_socials a{
     padding-right: 10px;
 }
@@ -246,11 +239,22 @@ a {
     padding: 1em 3em;
 }
 
+.footer__links {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer__link {
+    color: #000;
+    text-decoration: none;
+}
+
 .footer ul li{
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
-    cursor: pointer;
+    cursor: grab;
 }
 
 .vertical {

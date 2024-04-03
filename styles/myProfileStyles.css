@@ -64,6 +64,7 @@ p {
     margin-left: 30px;
     border: none;
     background-color: transparent;
+    display: none;
 }
 
 i {

@@ -73,7 +73,7 @@ body, h1, h2, h3, h4, p {
 
 /************************************* SIGN UP ************************************/
 .signUp {
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
+    background-image: url('../images/logIn_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0 100px;
@@ -119,9 +119,9 @@ a {
 
 .signUp__btn__wrapper {
     margin: 0;
-    background-color: transparent;
     margin-top: 1.5rem;
-    color: #025cab;
+    display: flex;
+    justify-content: center;
 }
 
 .signUp__btn {

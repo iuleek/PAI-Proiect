@@ -78,7 +78,7 @@ p {
 /********************************************** ABOUT SECTION *********************************************/
 
 .about {
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/background-about.jpg');
+    background-image: url('../images/background-about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -135,8 +135,20 @@ p {
 
 .latest-articles {
     display: flex;
+    padding: 6rem 3rem;
+    flex-direction: column;
+}
+
+.latest-articles__title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.latest-articles__posts {
+    display: flex;
     justify-content: space-between;
-    padding: 8rem 3rem;
 }
 
 .latest-articles__post {
@@ -204,7 +216,7 @@ p {
 #memberships {
     padding: 4em 3em;
     background-color:#e2e2e2;
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/background-memberships.jpg');
+    background-image: url('../images/background-memberships.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -331,6 +343,7 @@ p {
     font-size: 1rem;
     transition: 0.3s ease-in-out;
     border: 2px solid;
+    cursor: pointer;
 }
 
 .memberships__btn:hover {
@@ -395,6 +408,13 @@ input[type="text"],
 .subscribe__form__btn {
     font-size: 1.2rem;
     margin: 1rem;
+    width: 50%;
+}
+
+.subscribe__wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .subscribe__message {

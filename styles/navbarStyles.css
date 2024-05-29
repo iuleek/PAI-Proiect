@@ -1,0 +1,113 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0px;
+    padding: 0;
+}
+
+/***************************** NAV BAR *****************************/
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+.nav__toggler {
+    cursor: pointer;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__item a:hover {
+    color: #51ADCF;
+}
+
+.nav__link {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 40px;
+}
+
+
+.nav__toggler {
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu .dropbtn {
+    padding: 0 2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position the dropdown below the icon */
+    left: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a, p{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-menu:hover .dropdown-content, .dropdown-content:hover {
+    display: block;
+    flex-direction: column;
+}
+

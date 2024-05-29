@@ -78,10 +78,7 @@ p {
 }
 
 /************************************* ARTICLE PAGE *****************************************/
-.container{
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/diet.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
     padding: 5rem 3rem;
 }
 

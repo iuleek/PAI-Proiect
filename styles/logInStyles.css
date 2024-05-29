@@ -8,71 +8,76 @@ div ul {
     align-items: center;
 }   
 
-/* navbar */
+/************************************************* NAVBAR *************************************************/
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em 3em;
-}
-
-.nav__content {
+  }
+  
+  .nav__toggler {
+    cursor: pointer;
+  }
+  
+  .nav__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav ul {
+  }
+  
+  .nav__links {
     display: inline-flex;
     list-style-type: none;
-
-}
-
-.nav__item {
+  }
+  
+  .nav__item {
     margin-left: 40px;
-}
-
-.nav__item a {
-    background-color: transparent;
-}
-
-.nav__item a:hover {
+    margin-left: 40px;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+  }
+  
+  .nav__item a:hover {
     color: #51ADCF;
-}
-
-.nav__link {
+  }
+  
+  .nav__link {
     color: #000;
     font-weight: 400;
     font-size: 1.2rem;
-}
-
-.nav__signin__btn__container {
+  }
+  
+  .btn__outlined__wrapper {
     margin-left: 2.5rem;
-}
-
-.nav__signin__btn {
+  }
+  
+  .btn__outlined {
     background-color: white;
     padding: 12px 15px;
     font-size: 1rem;
     border: 2px solid rgb(104 168 229);
     border-radius: 5px;
     cursor: pointer;
-}
-
-.nav__signin__btn:hover {
+  }
+  
+  .btn__outlined:hover {
     background: linear-gradient(0deg, rgba(81, 173, 207, 0.488) 0%, rgba(62, 106, 194, 0.46) 100%);
     border: none;
-   
     padding: 13.5px 16.5px;
-}
-
-.nav__toggler {
+  }
+  
+  .nav__toggler {
     margin-left: 30px;
     border: none;
     background-color: transparent;
     display: none;
-}
-
+  }
+  
+  
+  
 
 /********************** FORM ELEMENTS & PAGE ******************************/
 
@@ -112,7 +117,7 @@ a {
    }
 
 .container-logIn{
-    background-image: url('C:/Iulik/Personal/Anul 4/Sem2/PAI-Proiect/images/logIn_background.jpg');
+    background-image: url('../images/logIn_background.jpg');
     background-repeat: no-repeat;
     padding: 50px 0 230px;
 }

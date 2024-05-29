@@ -80,10 +80,18 @@ h2{
     padding: 1em 0;
 }
 
-.latest-articles {
+#latest-articles-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3em 3em;
+}
+
+.latest-articles__row {
     display: flex;
     justify-content: space-between;
-    padding: 3em 3em;
+    margin-bottom: 4rem; 
+    padding: 0 3em;
 }
 
 .latest-articles__post {
@@ -111,7 +119,7 @@ h2{
 .latest-articles__post__top {
     display: flex;
     justify-content: center;
-    height: 60%;
+    height: 50%;
 }
 
 .latest-articles__post__text {
@@ -134,11 +142,10 @@ h2{
     background-color: #98d8f5ab;
     border-top: lightgray;
     display: flex;
-    width: 95%;
-    height: 40%;
+    height: 50%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding-left: 5%;
+    padding: 0 10px 10px 10px;
     transition: 0.3s ease-in-out;
 }
 

@@ -1,0 +1,125 @@
+{
+    "latest-articles-posts": [
+      {
+        "id": 1,
+        "img-src": "articles-images/fitness1.jpg",
+        "title": "10 Effective Workouts for Toning Your Body",
+        "description": "Discover these 10 workouts that can help you tone your body effectively, from cardio to strength training."
+      },
+      {
+        "id": 2,
+        "img-src": "articles-images/wellbeing1.jpg",
+        "title": "5 Simple Ways to Improve Your Mental Well-being",
+        "description": "Explore these easy-to-implement strategies to boost your mental well-being and reduce stress in your daily life."
+      },
+      {
+        "id": 3,
+        "img-src": "articles-images/yoga1.jpg",
+        "title": "Beginner's Guide to Yoga: Poses and Benefits",
+        "description": "Learn the basics of yoga practice, including popular poses and the numerous physical and mental benefits it offers."
+      },
+      {
+        "id": 4,
+        "img-src": "articles-images/lifestyle1.jpg",
+        "title": "Creating Healthy Habits for a Balanced Lifestyle",
+        "description": "Discover how to cultivate healthy habits that promote overall well-being and enhance your quality of life."
+      },
+      {
+        "id": 5,
+        "img-src": "articles-images/nutrition1.jpg",
+        "title": "The Power of Superfoods: Boost Your Nutrition",
+        "description": "Explore the benefits of incorporating superfoods into your diet to enhance nutrition and support overall health."
+      },
+      {
+        "id": 6,
+        "img-src": "articles-images/fitness2.jpg",
+        "title": "Effective HIIT Workouts for Fat Loss",
+        "description": "Discover high-intensity interval training (HIIT) workouts proven to maximize fat loss and improve cardiovascular health."
+      },
+      {
+        "id": 7,
+        "img-src": "articles-images/wellbeing2.jpg",
+        "title": "Mindfulness Meditation: Cultivating Inner Peace",
+        "description": "Learn how mindfulness meditation can help you cultivate inner peace, reduce anxiety, and improve overall well-being."
+      },
+      {
+        "id": 8,
+        "img-src": "articles-images/yoga2.jpg",
+        "title": "Yoga for Stress Relief: Relax and Renew",
+        "description": "Explore yoga practices specifically designed to alleviate stress, calm the mind, and promote relaxation."
+      },
+      {
+        "id": 9,
+        "img-src": "articles-images/lifestyle2.jpg",
+        "title": "Balanced Diet Tips for a Healthy Lifestyle",
+        "description": "Discover practical tips for maintaining a balanced diet that supports your health and well-being."
+      },
+      {
+        "id": 10,
+        "img-src": "articles-images/nutrition2.jpg",
+        "title": "Plant-Based Nutrition: Embracing a Vegan Diet",
+        "description": "Explore the benefits of adopting a plant-based diet, including improved health, environmental sustainability, and ethical considerations."
+      },
+      {
+        "id": 11,
+        "img-src": "articles-images/fitness3.jpg",
+        "title": "Strength Training Basics: Building Muscle Mass",
+        "description": "Learn the fundamentals of strength training and how to effectively build muscle mass for improved strength and physique."
+      },
+      {
+        "id": 12,
+        "img-src": "articles-images/wellbeing3.jpg",
+        "title": "The Importance of Self-Care for Mental Health",
+        "description": "Discover the significance of self-care practices in maintaining mental health and fostering resilience in challenging times."
+      },
+      {
+        "id": 13,
+        "img-src": "articles-images/yoga3.jpg",
+        "title": "Yoga for Flexibility: Stretch and Release Tension",
+        "description": "Explore yoga sequences designed to improve flexibility, release tension, and enhance mobility for better overall health."
+      },
+      {
+        "id": 14,
+        "img-src": "articles-images/lifestyle3.jpg",
+        "title": "Healthy Sleep Habits: Tips for Quality Rest",
+        "description": "Learn how to cultivate healthy sleep habits to optimize restorative sleep and support overall well-being."
+      },
+      {
+        "id": 15,
+        "img-src": "articles-images/nutrition3.jpg",
+        "title": "Healthy Eating on a Budget: Smart Tips and Recipes",
+        "description": "Discover practical strategies and budget-friendly recipes to help you maintain a nutritious diet without breaking the bank."
+      },
+      {
+        "id": 16,
+        "img-src": "articles-images/fitness4.jpg",
+        "title": "Cardiovascular Exercises for Heart Health",
+        "description": "Explore a variety of cardiovascular exercises that promote heart health and improve endurance for better overall fitness."
+      },
+      {
+        "id": 17,
+        "img-src": "articles-images/wellbeing4.jpg",
+        "title": "Stress Management Techniques for a Balanced Life",
+        "description": "Learn effective stress management techniques to reduce tension, improve resilience, and maintain balance in your life."
+      },
+      {
+        "id": 18,
+        "img-src": "articles-images/yoga4.jpg",
+        "title": "Meditative Yoga Practices for Inner Peace",
+        "description": "Explore meditative yoga practices that cultivate inner peace, mindfulness, and spiritual well-being."
+      },
+      {
+        "id": 19,
+        "img-src": "articles-images/lifestyle4.jpg",
+        "title": "The Power of Positive Thinking: Cultivating Optimism",
+        "description": "Discover how adopting a positive mindset can improve your overall well-being, relationships, and life satisfaction."
+      },
+      {
+        "id": 20,
+        "img-src": "articles-images/nutrition4.jpg",
+        "title": "Healthy Snacking: Nutritious Options for Every Craving",
+        "description": "Explore healthy snacking options that satisfy cravings while providing essential nutrients to support your health goals."
+      }
+    ]
+  }
+  

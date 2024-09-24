@@ -31,10 +31,10 @@
                 </p>
                 <div class="about__btns">
                     <div class="about__btn__container">
-                        <button class="about__btn" onclick="location.href='fitness-articles.html'">Workouts</button>
+                        <button class="about__btn" onclick="location.href='trainers.php'">Workouts & Trainers</button>
                     </div>
                     <div class="about__btn__container">
-                        <button class="about__btn" onclick="location.href='food-articles.html'">Healthy
+                        <button class="about__btn" onclick="location.href='food-articles.php'">Healthy
                             Eating</button>
                     </div>
                     <div class="about__btn__container">

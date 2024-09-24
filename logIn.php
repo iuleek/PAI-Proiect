@@ -13,8 +13,8 @@
 <?php include 'navbar.php'; ?>
 
 <?php
-//session_start();
-//session_start();
+
+
 header("Cache-Control: no-cache, must-revalidate"); // HTTP 1.1
 header("Pragma: no-cache"); // HTTP 1.0
 header("Expires: 0"); // Proxies
@@ -29,16 +29,10 @@ if (!$con) {
 
 if (isset($_POST['email']) && isset($_POST['password'])) {
 
-    function validate($data)
-    {
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
 
-    $email = validate($_POST['email']);
-    $password = validate($_POST['password']);
+
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
     if (empty($email)) {
         header("Location: logIn.php?error=Email is required");
@@ -47,6 +41,8 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         header("Location: logIn.php?error=Password is required");
         exit();
     }
+
+    echo $email;
 
     $sql = "SELECT * FROM login WHERE email='$email' AND password='$password'";
 
